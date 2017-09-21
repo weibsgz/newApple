@@ -1,0 +1,49 @@
+@import './_variable';
+@import './_mixin';
+
+//可以写一些公共样式
+
+.right-bar-wrapper{
+
+            position:absolute;
+            right:40px;
+            top: 200px;
+        
+        ul{
+            li{
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                border:1px solid #ccc;
+                &.active{
+                    color: red;
+                }
+            }
+        }
+  }
+
+
+
+.small-window-wrapper{
+    .window1{
+        position: absolute;
+        right:150px;
+        top: 100px;
+    }
+    .window2{
+        position: absolute;
+        right:150px;
+        top: 200px;
+    }
+    .window3{
+        position: absolute;
+        right:150px;
+        top: 300px;
+    }
+    .window4{
+        position: absolute;
+        right:550px;
+        top: 300px;
+    }
+}
+
